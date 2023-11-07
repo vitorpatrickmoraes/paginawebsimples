@@ -1,0 +1,80 @@
+/* Estilização Global */
+* {
+    margin: 0;
+    padding: 0;
+    font: 14px arial;
+}
+
+header {
+    background-color: rgb(68, 59, 237);
+    overflow: auto;
+}
+
+header img {
+    float: left;
+    margin: 15px;
+}
+
+nav {
+    float: right;
+}
+
+header a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+    margin-right: 5px;
+}
+
+header a:hover {
+    color: red;
+}
+
+.viagens {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.viagens li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.sobre {
+    overflow: auto;
+    margin: 80px auto;
+    width: 1200px;
+}
+
+.sobre img  {
+    float: left;
+    margin-left: 30px;
+}
+
+.sobre div {
+    float: right;
+    width: 700px;
+}
+
+.sobre h1 {
+    font-size: 32px;
+}
+
+.sobre p {
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
